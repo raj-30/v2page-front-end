@@ -144,7 +144,6 @@ h3{
 }
 .qr_code{
   img {
-    border: #000000 solid;
     margin-top: 10px;
     width: 200px;
     transition: 0.3s;
