@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery-item square"><img src="photo1.jpg" alt="Photo 1" loading="lazy"></div>
+        <div class="gallery-item rectangle"><img src="photo2.jpg" alt="Photo 2" loading="lazy"></div>
+        <div class="gallery-item square"><img src="photo3.jpg" alt="Photo 3" loading="lazy"></div>
+        <div class="gallery-item rectangle"><img src="photo4.jpg" alt="Photo 4" loading="lazy"></div>
+        <div class="gallery-item square"><img src="photo5.jpg" alt="Photo 5" loading="lazy"></div>
+        <!-- Add more photos as needed -->
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
