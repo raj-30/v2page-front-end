@@ -16,7 +16,7 @@ body{
   /*background: url('https://img.freepik.com/premium-photo/blur-background-gradient-with-noise-grain-effect_644842-428.jpg?w=996');*/
   background-image: url('background.jpeg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
 }
 nav{
@@ -103,7 +103,7 @@ nav svg{
     position: reletive;
     z-index: 1;
     max-width: 140vh;
-    height: 90vh;
+    height: 100vh;
     margin: 10px auto;
     padding: 20px;
     background:linear-gradient(
